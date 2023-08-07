@@ -12,8 +12,8 @@ const Product = () => {
 
   const createPreference = async () => {
     try {
-      const response = await axios.post("http://localhost:8080/create_preference", {
-        description: "Bananita contenta",
+      const response = await axios.post("https://api-mp-commerce-nodejs-86b64adba732.herokuapp.com/create_preference", {
+        description: "Prueba de pago",
         price: 100,
         quantity: 1,
       });
