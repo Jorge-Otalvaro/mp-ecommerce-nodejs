@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { initMercadoPago, Wallet } from "@mercadopago/sdk-react";
 import axios from "axios";
-import img from "../../assets/Bananita.png";
+import img from "../../assets/bananita.png";
 
 import "./Product.css";
 
